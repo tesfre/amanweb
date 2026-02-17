@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+
+}
+
+
+.main {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+
+}
+
+.navbar {
+    height: 100px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5vw;
+    border-bottom: 1px solid #dadada;
+    font-size: 2vw;
+    /* background-color: lightseagreen; */
+
+
+}
+
+.navbar img {
+    height: 6vw;
+    width: 7vw;
+}
+
+.navbar-list {
+    display: flex;
+    align-items: center;
+    gap: 4vw;
+    padding: 0 4vw;
+
+}
+
+.navbar-list a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.4vw;
+}
+
+.navbar-list a:hover {
+    text-decoration: underline;
+    transition: 1s;
+}
+
+.content {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.left {
+    height: 100%;
+    width: 50%;
+    /* background-color: crimson; */
+    padding: 5vw 9vw;
+}
+
+.right {
+    height: 100%;
+    width: 50%;
+    /* background-color: blue; */
+    padding: 5vw 9vw;
+}
+
+.card {
+    border: 4px solid rgb(66, 56, 56);
+    height: 500px;
+    width: 400px;
+    border-radius: 2%;
+
+}
+
+.card img {
+    height: 350px;
+    width: 390px;
+    border-bottom: 1px solid #dadada;
+    border-radius: 2%;
+}
+
+.card p {
+    font-size: 1.2vw;
+    font-weight: 700;
+    text-align: center;
+}
+
+.card:hover {
+    transform: rotate(-5deg);
+    transition: 0.9s;
+    background-color: lightseagreen;
+    box-shadow: 2vw 4vw  lightseagreen;
+}
+
+.card2 {
+    border: 4px solid rgb(66, 56, 56);
+    height: 500px;
+    width: 400px;
+    border-radius: 2%;
+
+
+}
+
+.card2 p {
+    text-align: center;
+    font-weight: 700;
+}
+
+.card2 img {
+    height: 350px;
+    width: 390px;
+    border-bottom: 1px solid #dadada;
+    border-radius: 2%;
+}
+
+
+.card2:hover {
+    transform: rotate(5deg);
+    transition: 0.9s;
+    background-color: lightseagreen;
+    box-shadow: 2vw 4vw lightseagreen;
+
+}
+
+.box {
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 70vh;
+    width: 100%;
+    background-color: rgb(231, 231, 204);
+
+}
+
+.box h1 {
+    text-align: center;
+    border-bottom: 1px solid #dadada;
+
+}
+
+.img1 {
+    /* border: 2px solid black; */
+    height: 300px;
+    width: 310px;
+    margin: 4vw 3vw;
+    border-radius: 6%;
+
+
+
+}
+
+
+
+.img1 img {
+    height: 200px;
+    width: 305px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.img1 p {
+    text-align: center;
+    font-size: 1.2vw;
+    font-weight: 700;
+}
+
+span {
+    font-size: 40px;
+    font-weight: 700;
+    color: lightseagreen;
+    text-align: center;
+}
+
+
+@keyframe animateX {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: 90%;
+    }
+}
