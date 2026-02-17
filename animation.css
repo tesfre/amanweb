@@ -1,0 +1,31 @@
+.container {
+    margin: 200px;
+    height: 100px;
+    width: 100px;
+    border-radius: 20%;
+
+    background-color: lightseagreen;
+    animation: animatex 2s ease infinite alternate-reverse;
+}
+
+.div {
+    height: 50px;
+    width: 50px;
+    border: 5px solid cyan;
+    border-radius: 3px;
+    box-shadow: 0 0 8px cyan, 0 0 8px cyan inset;
+    margin-left: 5vw;
+    animation: loading 2s ease-in infinite;
+}
+
+
+
+@keyframes animatex {
+
+    to {
+        transform: translateZ(60vw) scale(1.5);
+        background-color: rgb(58, 50, 46);
+        border-radius: 80%;
+        box-shadow: 4px 4px 40px rgb(6, 7, 7), 0px 0px rgb(6, 7, 7);
+    }
+}
