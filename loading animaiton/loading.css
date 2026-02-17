@@ -1,0 +1,34 @@
+.loading {
+    height: 100px;
+    width: 100px;
+    border: 5px solid rgb(42, 39, 190);
+    border-radius: 3px;
+    box-shadow: 0 0 9px rgb(21, 45, 122), 0 0 9px rgb(29, 31, 158) inset;
+    animation: loading 2s ease infinite;
+    margin: 10vw;
+}
+
+
+
+@keyframes loading {
+    0% {
+        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    }
+
+    33% {
+        transform: rotateX(180deg) rotateY(0deg) rotateZ(0deg);
+    }
+
+    66% {
+        transform: rotateX(180deg) rotateY(180deg) rotateZ(0deg);
+    }
+
+    100% {
+        transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+
+    }
+
+
+
+
+}

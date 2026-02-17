@@ -1,0 +1,40 @@
+.card {
+    height: 400px;
+    width: 300px;
+    border: 4px solid black;
+    margin: 20px auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    text-align: center;
+  
+}
+
+.card2 {
+    height: 400px;
+    width: 300px;
+    border: 4px solid black;
+    margin: 20px auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.h2 {
+    color: orangered;
+}
+
+.card2:hover{
+    box-shadow: 4px 4px 4px 4px;
+    transition: 0.8s;
+    transform: rotate(5deg);
+    background-color: rgba(253, 0, 0, 0.829);
+    
+}
+
+.card:hover{
+    box-shadow: 4px 4px 4px 4px;
+    transition: 0.8s;
+    transform: rotate(-5deg);
+    background-color: rgba(0, 0, 0, 0.5);
+}

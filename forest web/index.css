@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background: url(africa.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    /* background-color: lightseagreen; */
+    display: flex;
+    padding: 30px 50px;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 99;
+}
+
+h3{
+    font-size: 30px;
+    color: rgb(1, 1, 1);
+    font-weight: 700;
+    user-select: none;
+}
+
+
+
+.navbar a{
+    color: rgb(0, 0, 0);
+    font-size: 1.1em;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+/* .line{
+    border: 1.5px dotted rgb(0, 0, 0);
+    width: 100%;
+    margin-top: 80px;
+    
+} */
+
+
+.navbar a:hover{
+    box-shadow: 0 0 25px green, 0 0 25px green;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+
+a:focus{
+    outline: 2px solid black;
+    outline-offset: 0.3px;
+}
